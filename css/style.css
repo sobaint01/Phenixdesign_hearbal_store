@@ -1,0 +1,635 @@
+
+/**Nav bar styling**/
+.navbar {
+    background: #FFFFFF;
+    color: #000000 !important;
+}
+
+.smaller-screen{
+    display: none;
+}
+
+.collapse{
+    display: none;
+}
+
+.nav-item { 
+    color: #000000 !important;
+   /**outline: 2px solid red ;**/
+ }
+
+
+.navbar-brand {
+    color: #000000 !important;
+    font-family: 'Russo One', sans-serif !important;
+}
+
+.nav {
+    display: flex !important;
+}
+
+.dropdown-menu{
+    background-color: #F2F5F9;
+}
+
+.dropdown-item:hover{
+    background-color:#4971AE;
+}
+
+
+.primaryNav {
+    justify-content: center; 
+   
+}
+
+.nav-link{
+    color: #000000 !important;
+    /** navogation font color**/
+}
+
+.log-in-search{
+    justify-content: flex-end;
+}
+
+.srch {
+
+    color: #000000 !important;
+}
+
+/**website btn styling**/
+.btn{
+    color: #FFFFFF;
+}
+
+.btn:hover{
+    background: #081120;
+    color:#FFFFFF !important;
+}
+
+.btn-outline-success{
+    border-color:#081120;
+}
+
+.btn-outline-success:hover{
+    border-color:#081120;
+}
+
+/**jumbotron styling**/
+
+.jumbotron{
+    height: 110vh !important;
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items:flex-start !important;
+    background-image: url("../images/saltandspices.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    margin: 0px !important;
+    
+}
+
+.capture-form { 
+/**captureform styling**/
+    /**outline: 2px solid red;**/
+    margin-top: 5%;
+    height: 90vh;
+    width: 34%;
+    background-color: #2F6041 ;
+    border-radius: 10px;
+    margin-bottom: auto;
+ }
+
+ .capture-form h1 {
+    color: #FFFFFF;
+    margin-left: 35%;
+    margin-right: auto;
+    margin-top: 8%;
+ }
+
+ .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font: #C4C4C4;
+    margin-left: 10px;
+    margin-right: 10px;
+
+ }
+
+.cam {
+
+    width: 45px;
+    height: 30px;
+    /**outline: 2px solid red;**/
+    background-image: url("../images/Mask\ group.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.scan-order {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.scan-order input {
+    width: 45%;
+}
+
+/**.scan-code{
+    display: flex;
+}**/
+
+.scan-code{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    
+}
+
+ .state-city {
+display: flex;
+
+ }
+
+ .zip-phone {
+    display: flex;
+    
+     }
+.capture-submit-btn {
+width: 75%;
+margin-left: 12%;
+margin-right: auto;
+margin-top: auto;
+background: linear-gradient(99.76deg, #CC7B09 22.85%, #553903 89.58%);
+border: 1.34263px solid #F8F4F9;
+border-radius: 10.5px;
+cursor: pointer;
+
+}
+
+.capture-submit-btn:hover {
+    background: linear-gradient(99.76deg, rgba(204, 123, 9, 0.62) 22.85%, #553903 89.58%);
+    transform: scale(1.09);
+    border: 1.34263px solid #F8F4F9;
+    cursor: pointer;
+}
+    
+.as-seen-ontv {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.as-seen-ontv h1 {
+
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+.percentage { 
+    /**outline: 2px solid red;**/
+    margin-top: auto;
+    height: 55vh;
+    font-size: 20em;
+    font-weight: bolder;
+    color: #FFFFFF;
+    
+ }
+
+.display-4{
+    color: #FFFFFF;
+    font-family: "Roboto" sans-serif !important;
+    margin-bottom: auto;
+}
+
+#basic-addon1{
+    
+    width: 47px;
+    background-image: url("../images/search_icon_white.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*card stying*/
+
+.container-fluid {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    display: flex !important;
+}
+
+
+.card{
+    height: 500px;
+    width: 400px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+    
+.blogs {
+    background-image: url("../images/darkfruit.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.blogs h5 {
+    font-size: xx-large;
+    margin-top: 15%;
+    font-style: italic;
+    margin-left: 15%;
+}
+
+.blogs:hover {
+    background-image: url("../images/fruits.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.books {
+    background-image: url("../images/spicesdark.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.books h5 {
+    font-size: xx-large;
+    margin-top: 15%;
+    font-style: italic;
+    margin-left: 15%;
+}
+
+.books:hover {
+    background-image: url("../images/spices.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-products {
+    background-image: url("../images/Darknuts.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.new-products h5 {
+    font-size: xx-large;
+    margin-top: 15%;
+    font-style: italic;
+    margin-left: 15%;
+}
+
+.new-products:hover {
+    background-image: url("../images/nuts\ for\ blugs\ .jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.card-btn {
+    width: 75%;
+margin-left: 12%;
+margin-right: auto;
+margin-bottom: 25%;
+background: linear-gradient(99.76deg, #CC7B09 22.85%, #553903 89.58%);
+border: 1.34263px solid #F8F4F9;
+border-radius: 10.5px;
+cursor: pointer;
+
+}
+
+.card-btn-green {
+
+    width: 75%;
+    margin-left: 12%;
+    margin-right: auto;
+    margin-bottom: 25%;
+    background: linear-gradient(106.09deg, #43885C 12.03%, #13271B 82.59%);
+    border: 1.34263px solid #F8F4F9;
+    border-radius: 10.5px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background: linear-gradient(99.76deg, rgba(204, 123, 9, 0.62) 22.85%, #553903 89.58%);
+    transform: scale(1.09);
+    border: 1.34263px solid #F8F4F9;
+    cursor: pointer;
+}
+
+.card-btn-green:hover {
+
+    background: linear-gradient(106.09deg, #43885C 12.03%, #13271B 89.58%);
+    transform: scale(1.09);
+    border: 1.34263px solid #F8F4F9;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.card-body {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*footer*/
+
+#footerContainer { display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin: 0px;
+    height: 150px;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.footerNav{
+    display: flex;
+    list-style-type: none;
+    color: #000000;
+}
+
+li {
+    margin: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.socialsIcon{
+    display: flex;
+
+}
+
+.instagram { display: flex;
+    height: 40px;
+    width: 40px;
+    /**outline: 2px solid #363333;**/
+    background-image: url("../images/instagram_socials.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 15px;
+cursor: pointer;
+transition: 0.3s; 
+}
+
+.instagram:hover { 
+    
+    transform: scale(1.4);
+    cursor: pointer; 
+ }
+
+
+.linkedIn { display: flex;
+    height: 40px;
+    width: 40px;
+    /**outline: 2px solid #363333;**/
+    background-image: url("../images/linkedin_socials.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 15px; 
+cursor: pointer;
+transition: 0.3s;
+ }
+
+.linkedIn:hover { 
+    
+    transform: scale(1.4);
+    cursor: pointer; 
+ }
+
+.twitter { display: flex;
+    height: 40px;
+    width: 40px;
+    /**outline: 2px solid #363333;**/
+    background-image: url("../images/twitter_socials.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 15px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.twitter:hover { 
+    
+    transform: scale(1.4);
+    cursor: pointer; 
+ }
+
+.facebook { display: flex;
+    height: 40px;
+    width: 40px;
+    /**outline: 2px solid #363333;**/
+    background-image: url("../images/Facebook_socials.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 15px;
+cursor: pointer;
+transition: 0.3s;
+ }
+
+.facebook:hover { 
+    
+    transform: scale(1.4);
+    cursor: pointer; 
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navbar {
+        display: none;
+    
+    }
+
+    .row {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        
+    }
+
+    
+
+    .bton button {
+        background-color: #000000;
+    }
+
+    .smaller-screen {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .collapse{
+        display: flex;
+           
+    }
+    
+    
+    .smaller-screen img {
+        margin-left: 10px;
+    }
+   
+    .small-screen-cont{
+        display: flex;
+        
+    } 
+
+    .small-screen-cont{
+        display: flex;
+        justify-content: space-between!important;
+        width: 100%;
+
+    }
+
+    .small-screen-cont .form-inline {
+
+       width: 150px;
+        
+    }
+
+    .bg-dark{
+        background:#FFFFFF !important;
+    }
+
+    .small-screen-cont .form-inline button{
+
+        display: none;
+         
+     }
+
+     
+     .small-screen-nav {
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+
+     }
+
+     .contents-2p{
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+
+     #carouselExampleCaptions{
+        display: flex;
+        /*outline: 2px solid blue;*/
+        width: 100%;
+        height: 50vh;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .viewMore{
+        display: flex;
+        width: 100% !important;
+        height: 45vh !important;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .jumbotron{
+        height: 170vh !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+        align-items:flex-start !important;
+        background-image: url("../images/saltandspices.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #FFFFFF;
+        margin: 0px !important;
+        
+    }
+
+    .capture-form { 
+        /**captureform styling**/
+            /**outline: 2px solid red;**/
+            margin-top: 5%;
+            height: 90vh;
+            width: 100%;
+            background-color: #2F6041 ;
+            border-radius: 10px;
+            margin-bottom: auto;
+         }
+
+         .as-seen-ontv h1 {
+
+            margin-top: 100px;
+            margin-bottom: auto;
+            width:100%
+        }
+
+        .as-seen-ontv {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        
+        }
+        
+        .as-seen-ontv h1 {
+        
+            margin-top: 50px;
+            margin-bottom: auto;
+        }
+        
+        .percentage { 
+            /**outline: 2px solid red;**/
+            margin-top: auto;
+            height: 55vh;
+            font-size: 15em;
+            font-weight: bolder;
+            color: #FFFFFF;
+            width: 100%;
+            
+         }
+         .display-4{
+            color: #FFFFFF;
+            font-family: "Roboto" sans-serif !important;
+            margin-bottom: auto;
+            font-size: x-large;
+        }
+
+}
