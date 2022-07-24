@@ -109,7 +109,7 @@ body{
     flex-direction: column;
     justify-content:space-between;
     height: 100%;
-    outline: 2px solid red;
+    /**outline: 2px solid red**/;
     padding-bottom: 20px auto;
    
 }
