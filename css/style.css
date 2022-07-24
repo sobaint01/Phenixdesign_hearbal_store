@@ -502,8 +502,13 @@ transition: 0.3s;
 
 @media only screen and (max-width: 1000px) {
 
+    body {
+        margin: 0;
+    }
+
     .navbar {
         display: none;
+        margin: 0;
     
     }
 
@@ -600,7 +605,7 @@ transition: 0.3s;
     }
 
     .jumbotron{
-        height: 170vh !important;
+        height: 45 !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: space-evenly !important;
@@ -611,6 +616,7 @@ transition: 0.3s;
         background-size: cover;
         color: #FFFFFF;
         margin: 0px !important;
+        margin: 0;
         
     }
 
@@ -618,12 +624,14 @@ transition: 0.3s;
         /**captureform styling**/
             /**outline: 2px solid red;**/
             margin-top: 5%;
-            height: 90vh;
+            height: 40%;
             width: 100%;
             background-color: #2F6041 ;
             border-radius: 10px;
             margin-bottom: auto;
          }
+
+         
 
          .as-seen-ontv h1 {
 
